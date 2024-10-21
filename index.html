@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Herreria Sanchez</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <script src="https://kit.fontawesome.com/d55e533ff0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./assets//css/estilos.css" />
+    <link
+    rel="shortcut icon"
+    href="assets/img/file.png"
+    type="image/x-icon"
+  />
+  </head>
+  <body>
+    <!-- #region ENCABEZADO -->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">
+          <img
+            src="assets/img/file.png"
+            alt=""
+            class="nav__logo-img"
+          />
+          Herreria Sanchez
+        </a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">Inicio</a>
+            </li>
+            <li class="nav__item">
+              <a href="#servicios" class="nav__link">Servicios</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">Acerca</a>
+            </li>
+            <li class="nav__item">
+              <a href="#new" class="nav__link">Nuevos</a>
+              
+            </li>
+            <a href="#contacto" class="button button--ghost">Contacto</a>
+          </ul>
+          <div class="nav__close" id="nav-close">
+            <i class="bx bx-x"></i>
+          </div>
+          <img src="assets/img/file.png" alt="" class="nav__img" />
+        </div>
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-grid-alt"></i>
+        </div>
+      </nav>
+    </header>
+    <!-- #endregion -->
+    <!-- #region Principal-->
+    <main class="main">
+      <!--Menu inicial-->
+      <section class="home container" id="home">
+        <div class="swiper home-swiper">
+          <div class="swiper-wrapper">
+            <!--1 2 3-->
+            <section class="swiper-slide">
+              <div class="home__content grid">
+                <div class="home__group">
+                  <img
+                    src="assets/img/ventanal2.jpg"
+                    alt=""
+                    class="home__img"
+                  />
+                  <div class="home__indicator"></div>
+
+                  <div class="home__details-img">
+                    <h4 class="home__details-title">Proteccion</h4>
+                    <span class="home__details-subtitle">
+                      Para unidad habitacional</span
+                    >
+                  </div>
+                </div>
+
+                <div class="home__data">
+                  <h3 class="home__subtitle">Herreria</h3>
+                  <h1 class="home__title">
+                    La<br />
+
+                    Mejor <br />
+                    Calidad
+                  </h1>
+                  <p class="home__description">
+                    Conoce todo sobre nuestro trabajo, contamos con diferentes servicios de seguridad
+                    y imagen para tu hogar.
+                  </p>
+
+                  <div class="home__buttons">
+                    <a href="#contacto" class="button"> Contactanos</a>
+                    
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="swiper-slide">
+              <div class="home__content grid">
+                <div class="home__group">
+                  <img
+                    src="assets/img/baño.jpg"
+                    alt=""
+                    class="home__img"
+                  />
+                  <div class="home__indicator"></div>
+
+                  <div class="home__details-img">
+                    <h4 class="home__details-title">Cancel</h4>
+                    <span class="home__details-subtitle">
+                      Cancel para baño pequeño</span
+                    >
+                  </div>
+                </div>
+
+                <div class="home__data">
+                  <h3 class="home__subtitle">Canceleria</h3>
+                  <h1 class="home__title">
+                    El <br />
+
+                    Mejor <br />
+                    Material
+                  </h1>
+                  <p class="home__description">
+                    Contamos con los mejores materiales para Canceleria, 
+                    y manejamos una gran variedad de vidrios templaados, ademas colores.
+                  </p>
+
+                  <div class="home__buttons">
+                    <a href="#contacto" class="button">Contactanos</a>
+                    
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="swiper-slide">
+              <div class="home__content grid">
+                <div class="home__group">
+                  <img
+                    src="assets/img/chapaa.jpg"
+                    alt=""
+                    class="home__img"
+                  />
+                  <div class="home__indicator"></div>
+
+                  <div class="home__details-img">
+                    <h4 class="home__details-title">Chapa de seguridad</h4>
+                    <span class="home__details-subtitle"
+                      >Puerta principal</span
+                    >
+                  </div>
+                </div>
+
+                <div class="home__data">
+                  <h3 class="home__subtitle">Chapas de seguridad</h3>
+                  <h1 class="home__title">
+                    La <br />
+
+                    Mejor<br />
+                    Seguridad
+                  </h1>
+                  <p class="home__description">
+                   Contamos con la mejor calidad de chapas de seguridad y con distintos modelos de acuerdo
+                   a su tipo de puerta.
+                  </p>
+
+                  <div class="home__buttons">
+                    <a href="#contacto" class="button">Contactanos</a>
+                    
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+      <!--Categirias-->
+      <section class="section category" id="servicios">
+        <h2 class="section__title">
+          Herreria para<br />
+          Unidad Habitacional GAP
+        </h2>
+
+        <div class="category__container container grid">
+          <div class="category__data">
+            <img
+              src="assets/img/ventanal2.jpg"
+              alt=""
+              class="category__img"
+            />
+            <h3 class="category__title">Herreria</h3>
+            <p class="category__description">
+              Trabajamos herreria en general
+            </p>
+          </div>
+
+          <div class="category__data">
+            <img
+              src="assets/img/baño.jpg"
+              alt=""
+              class="category__img"
+            />
+            <h3 class="category__title">Canceleria</h3>
+            <p class="category__description">
+              Manejamos todo tipo de aluminio y vidrio
+            </p>
+          </div>
+
+          <div class="category__data">
+            <img
+              src="assets/img/chapaa.jpg"
+              alt=""
+              class="category__img"
+            />
+            <h3 class="category__title">Chapas de seguridad</h3>
+            <p class="category__description">
+              La mejor calidad para una mayor seguridad
+            </p>
+          </div>
+
+          <div class="category__data">
+            <img
+              src="assets/img/baño.jpg"
+              alt=""
+              class="category__img"
+            />
+            <h3 class="category__title">Mosquiteros</h3>
+            <p class="category__description">
+              Manejamos diferentes materiales
+            </p>
+          </div>
+
+          <div class="category__data">
+            <img
+              src="assets/img/baño.jpg"
+              alt=""
+              class="category__img"
+            />
+            <h3 class="category__title">Cubre polvos</h3>
+            <p class="category__description">
+              La mejor calidad 
+            </p>
+          </div>
+
+
+        </div><br><br>
+
+        <div class="boto " >
+          <a href="catalog.html" class="but">Click aquí para conocer nuestro catalogo</a>
+          
+        </div>   
+         </section>
+
+
+      <!--Acerca de-->
+      <section class="section about" id="about">
+        <div class="about__container container grid">
+          <div class="about__data">
+            <h2 class="section__title about__title">
+              Acerca de Herreria
+              <br />
+              Sanchez
+            </h2>
+            <p class="about__description">
+              En Herreria Sanches nos importa tu seguridad y la de tu hogar. Es por eso que les ofrecemos 
+              la mas alta calidad en nuestros servicios y productos, tanto en materiales como en servicios de
+              instalacion, esto es lo que nos identifica, ademas de años de trabajo.
+            </p>
+            
+          </div>
+
+          <img src="assets/img/unidad.jpg" alt="" class="about__img" />
+        </div>
+      </section>
+      <!--                                 Servicios de Herreria general-->
+
+      <section class="section category" id="servicios">
+        <h2 class="section__title">
+          Herreria en general<br />
+        </h2>
+
+        <div class="category__container container grid">
+          <div class="category__data">
+            <img
+              src="assets/img/ventanal2.jpg"
+              alt=""
+              class="category__img"
+            />
+            <h3 class="category__title">Puertas</h3>
+            <p class="category__description">
+              Trabajamos herreria en general
+            </p>
+          </div>
+
+          <div class="category__data">
+            <img
+              src="assets/img/baño.jpg"
+              alt=""
+              class="category__img"
+            />
+            <h3 class="category__title">Escaleras</h3>
+            <p class="category__description">
+              Manejamos todo tipo de aluminio y vidrio
+            </p>
+          </div>
+
+          <div class="category__data">
+            <img
+              src="assets/img/chapaa.jpg"
+              alt=""
+              class="category__img"
+            />
+            <h3 class="category__title">Ventanas</h3>
+            <p class="category__description">
+              La mejor calidad para una mayor seguridad
+            </p>
+          </div>
+
+          
+
+
+        </div><br><br>
+
+        <div class="boto " >
+          <a href="general.html" class="but">Click aquí para conocer nuestro catalogo</a>
+          
+        </div>   
+         </section>
+
+
+
+     
+      <!--Descuentos-->
+      <section class="section discount">
+        <div class="discount__container container grid">
+          <div class="discount__data">
+            <h2 class="discount__title">
+              Tenemos promocion <br />
+
+              En nuevos productos
+            </h2>
+          </div>
+
+          <img src="assets/img/unidad.jpg" alt="" class="discount__img" />
+        </div>
+      </section>
+      <!--Nuevos items-->
+      <section class="section new" id="new">
+        <h2 class="section__title">Los recién llegados</h2>
+
+        <div class="new__container container">
+          <div class="swiper new-swiper">
+            <div class="swiper-wrapper">
+              <div class="new__content swiper-slide">
+                <div class="new__tag">Nuevo</div>
+                <img src="assets/img/cancel.jpg" alt="" class="new__img" />
+                <h3 class="new__title">Cancel</h3>
+                <span class="new__subtitle">Cancel de baño</span>
+
+              </div>
+
+              <div class="new__content swiper-slide">
+                <div class="new__tag">Nuevo</div>
+                <img src="assets/img/cancel1.jpg" alt="" class="new__img" />
+                <h3 class="new__title">Cancel</h3>
+                <span class="new__subtitle">Cancel de baño</span>
+
+              </div>
+
+              <div class="new__content swiper-slide">
+                <div class="new__tag">Nuevo</div>
+                <img src="assets/img/chapaa.jpg" alt="" class="new__img" />
+                <h3 class="new__title">Chapa</h3>
+                <span class="new__subtitle">Chapa de seguridad</span>
+
+              </div>
+
+              <div class="new__content swiper-slide">
+                <div class="new__tag">Nuevo</div>
+                <img src="assets/img/chapa2.jpg" alt="" class="new__img" />
+                <h3 class="new__title">Chapa</h3>
+                <span class="new__subtitle">Chapa de seguridad</span>
+
+              </div>
+
+              <div class="new__content swiper-slide">
+                <div class="new__tag">Nuevo</div>
+                <img src="assets/img/chapa3.jpg" alt="" class="new__img" />
+                <h3 class="new__title">Chapa</h3>
+                <span class="new__subtitle">Chapa de seguridad</span>
+
+                
+              </div>
+
+              <div class="new__content swiper-slide">
+                <div class="new__tag">Nuevo</div>
+                <img src="assets/img/cancel.jpg" alt="" class="new__img" />
+                <h3 class="new__title">Cancel</h3>
+                <span class="new__subtitle">Cancel para baño</span>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Contacto-->
+      <section class="section newsletter" id="contacto">
+        <div class="newsletter__container container">
+          <h2 class="section__title">Contactanos por WhatsApp</h2>
+          <p class="newsletter__description">
+            Envía un mensaje directo a nuestro número de WhatsApp.
+          </p>
+          <a href="https://wa.me/522331067405?text=Hola%20Luis%20me%20regalas%20más%20información%20sobre%20tus%20servicios" target="_blank" class="btn-responsive"><i class="fa-brands fa-whatsapp"></i>Click para enviar un mensaje</a>
+          <a href="tel:5584501186">Llamar</a>
+
+          <p class="nomcon">Luis Enrique Sanchez a sus ordenes</p>
+        </div>
+      </section>
+      
+      
+      
+    </main>
+
+    <!--Pie de pagina-->
+    <footer class="footer section">
+      <div class="footer__container container grid">
+        <div class="footer__content">
+          <a href="#" class="footer__logo">
+            <img src="assets/img/file.png" alt="" class="footer__logo-img" />
+            Herreria Sanchez
+          </a>
+
+          <p class="footer__description">
+            Visita nuestras <br />
+            Redes sociales
+          </p>
+
+          <div class="footer__social">
+            <a
+              href="https://www.facebook.com/"
+              target="_blank"
+              class="footer__social-link"
+            >
+              <i class="bx bxl-facebook"></i>
+            </a>
+            <a
+              href="https://www.instagram.com/"
+              target="_blank"
+              class="footer__social-link"
+            >
+              <i class="bx bxl-instagram-alt"></i>
+            </a>
+            <a
+              href="https://twitter.com/"
+              target="_blank"
+              class="footer__social-link"
+            >
+              <i class="bx bxl-whatsapp"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer__content">
+          <h3 class="footer__title">Acerca</h3>
+
+          <ul class="footer__links">
+            <li>
+              <a href="#" class="footer__link">Sobre Nosotros</a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">Contacto</a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">Nuevos</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer__content">
+          <h3 class="footer__title">Nuestros servicios</h3>
+
+          <ul class="footer__links">
+            <li>
+              <a href="#" class="footer__link">Nuevos</a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">Productos</a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">Contacto</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer__content">
+          <h3 class="footer__title">Nuestra compañia</h3>
+
+          <ul class="footer__links">
+            <li>
+              <a href="#" class="footer__link">Blog</a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">Sobre nosotros</a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">Nuestra mision</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <span class="footer__copy">&#169; Herreria Sanchez. Todos los derechos Reservados</span>
+
+      <img src="assets/img/file.png" alt="" class="footer__img-one" />
+      <img src="assets/img/file.png" alt="" class="footer__img-two" />
+    </footer>
+    <!-- #endregion -->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="bx bx-up-arrow-alt scrollup__icon"></i>
+    </a>
+
+    <!--Scroll para que se revelen los elementos de forma suave-->
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+
+    <!--Deslizar elementos en una lista-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>

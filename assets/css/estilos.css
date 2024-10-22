@@ -1162,8 +1162,8 @@ button{
 .modal-content {
   display: block;
   margin: auto;
-  max-width: 90%;
-  max-height: 90%;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .close {
@@ -1220,16 +1220,22 @@ button{
   }
 
   .prev {
-    left: 5px; /* Flecha más cerca del borde en móviles */
+    left: 5px;
+    top: 30%; /* Flecha más cerca del borde en móviles */
   }
 
   .next {
     right: 5px; /* Flecha más cerca del borde en móviles */
+    top: 30%;
   }
 
   .close {
     font-size: 30px; /* Reducimos el tamaño del botón de cerrar en pantallas pequeñas */
     right: 15px; /* Ajustamos su posición en móviles */
+    top: 1%;
+  }
+  .modal{
+    top: 15%;
   }
 }
 

@@ -9,13 +9,13 @@
   --hue: 14;
   --first-color: hsl(var(--hue), 91%, 54%);
   --first-color-alt: hsl(var(--hue), 91%, 50%);
-  --title-color: hsl(var(--hue), 4%, 100%);
-  --text-color: hsl(var(--hue), 4%, 95%);
-  --text-color-light: hsl(var(--hue), 4%, 55%);
+  --title-color: white;
+  --text-color: white;
+  --text-color-light: white;
 
   /*Green gradient*/
-  --body-color: linear-gradient(90deg, hsl(189, 88%, 43%) 0%, hsl(224, 79%, 43%) 100%);
-  --container-color: linear-gradient(136deg, hsla(199, 81%, 80%, 0.37) 0%, hsla(0, 0%, 3%, 0) 100%);
+  --body-color: rgb(7, 7, 7);
+  --container-color: black;
 
   /*========== Font and typography ==========*/
   --body-font: 'Poppins', sans-serif;
@@ -137,7 +137,7 @@ button{
 /*=============== HEADER ===============*/
 .header{
   width: 100%;
-  background: var(--body-color); 
+  background: orangered; 
   position: fixed;
   top: 0;
   left: 0;
@@ -1120,7 +1120,7 @@ button{
 @media (max-width: 480px) {
   .desc{
     width: 350px;
-    margin-left: 46px;
+    margin-left: 35px;
   } 
  
 }
@@ -1235,7 +1235,7 @@ button{
 
 
   
-/* Estilos para el botón */
+/* Estilos para el botón de whatsApp */
 .btn-responsive {
   display: inline-block;
   padding: 12px 24px; /* Tamaño del botón */
@@ -1257,7 +1257,7 @@ button{
 @media (max-width: 768px) {
   .btn-responsive {
     padding: 10px 20px; /* Ajuste de padding en pantallas pequeñas */
-    margin-left: 90px;
+    margin-left: 102px;
     font-size: 14px; /* Tamaño del texto más pequeño en pantallas pequeñas */
   }
 }
@@ -1274,7 +1274,47 @@ button{
   padding-right: 15px;
 }
 
+ 
 
+
+/* Estilos para el botón de llamdas */
+.btn-responsivo {
+  display: inline-block;
+  padding: 12px 24px; /* Tamaño del botón */
+  background-color: #257fd3; /* Color de fondo (WhatsApp green) */
+  color: white; /* Color del texto */
+  text-decoration: none; /* Elimina el subrayado del enlace */
+  border-radius: 5px; /* Bordes redondeados */
+  font-size: 16px; /* Tamaño del texto */
+  text-align: center; /* Centrar el texto */
+  transition: background-color 0.3s ease; /* Animación suave al pasar el ratón */
+}
+
+/* Efecto hover para el botón */
+.btn-responsivo:hover {
+  background-color: #226dc3; /* Color de fondo más oscuro al pasar el ratón */
+}
+
+/* Estilos responsivos para pantallas más pequeñas */
+@media (max-width: 768px) {
+  .btn-responsivo {
+    padding: 10px 20px; /* Ajuste de padding en pantallas pequeñas */
+    margin-left: 135px;
+    font-size: 14px; /* Tamaño del texto más pequeño en pantallas pequeñas */
+  }
+}
+
+@media (max-width: 480px) {
+  .btn-responsivo {
+    padding: 8px 16px; /* Aún más pequeño en pantallas muy pequeñas */
+    font-size: 12px; /* Ajuste del tamaño del texto en pantallas móviles pequeñas */
+
+  }
+}
+
+.btn-responsivo i{
+  padding-right: 15px;
+}
 
 
 

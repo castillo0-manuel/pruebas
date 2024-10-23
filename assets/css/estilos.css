@@ -1233,7 +1233,7 @@ button{
   .close {
     font-size: 30px; /* Reducimos el tamaño del botón de cerrar en pantallas pequeñas */
     right: 15px; /* Ajustamos su posición en móviles */
-    top: 1%;
+    top: 10%;
   }
   .modal{
     top: 12%;

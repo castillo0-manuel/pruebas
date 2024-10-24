@@ -101,21 +101,20 @@ closeBtn.onclick = function () {
 
 
 //         JS para el modal
-
 document.addEventListener('DOMContentLoaded', function() {
   var modal = document.getElementById('imageModal');
   var modalImg = document.getElementById('modalImg');
   var modalVideo = document.getElementById('modalVideo');
   var closeModal = document.querySelector('.close');
-  var images = document.querySelectorAll('.trick__img');
+  var mediaElements = document.querySelectorAll('.trick__img, .trick__vid'); // Seleccionamos tanto imágenes como videos
   var currentIndex = 0;
 
   // Mostrar el modal cuando se hace clic en una imagen o video
-  images.forEach((media, index) => {
+  mediaElements.forEach((media, index) => {
     media.addEventListener('click', function(event) {
       event.preventDefault();
       modal.style.display = 'block';
-      currentIndex = index; // Guardamos el índice de la imagen o video actual
+      currentIndex = index; // Guardamos el índice del elemento actual
       
       // Si el elemento es una imagen
       if (this.tagName.toLowerCase() === 'img') {
@@ -141,8 +140,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
   // Función para mostrar el siguiente elemento (imagen o video)
   function showNextMedia() {
-    currentIndex = (currentIndex + 1) % images.length; // Ir al siguiente índice
-    var nextMedia = images[currentIndex];
+    currentIndex = (currentIndex + 1) % mediaElements.length; // Ir al siguiente índice
+    var nextMedia = mediaElements[currentIndex];
 
     if (nextMedia.tagName.toLowerCase() === 'img') {
       modalImg.style.display = 'block';
@@ -158,8 +157,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
   // Función para mostrar el elemento anterior (imagen o video)
   function showPrevMedia() {
-    currentIndex = (currentIndex - 1 + images.length) % images.length;
-    var prevMedia = images[currentIndex];
+    currentIndex = (currentIndex - 1 + mediaElements.length) % mediaElements.length;
+    var prevMedia = mediaElements[currentIndex];
 
     if (prevMedia.tagName.toLowerCase() === 'img') {
       modalImg.style.display = 'block';

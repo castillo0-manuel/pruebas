@@ -447,6 +447,11 @@ button{
   transition: .3s;
 }
 
+.trick__vid{
+  width: 320px;
+  transition: .3s;
+}
+
 .trick__subtitle,
 .trick__price{
   display: block;
@@ -478,7 +483,7 @@ button{
   color: var(--title-color);
 }
 
-.trick__content:hover .trick__img{
+.trick__content:hover .trick__img .trick__vid{
   transform: translateY(-.5rem);
 }
 
@@ -956,6 +961,10 @@ button{
   }
   .trick__img{
     width: 710px;
+  }
+
+  .trick__vid{
+    width: 230px;
   }
   .trick__title{
     font-size: var(--h3-font-size);

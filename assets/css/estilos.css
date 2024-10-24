@@ -620,6 +620,7 @@ button{
 .footer{
   position: relative;
   overflow: hidden;
+  background: rgb(17, 17, 17);
 }
 
 .footer__img-one,

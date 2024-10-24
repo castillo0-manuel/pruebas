@@ -1223,12 +1223,12 @@ button{
 
   .prev {
     left: 5px;
-    top: 45%; /* Flecha más cerca del borde en móviles */
+    top: 50%; /* Flecha más cerca del borde en móviles */
   }
 
   .next {
     right: 5px; /* Flecha más cerca del borde en móviles */
-    top: 45%;
+    top: 50%;
   }
 
   .close {

@@ -1120,7 +1120,7 @@ button{
 .desc{
   text-align: center;
   width: 1000px;
-  margin-left: 150px;
+  margin-left: 175px;
 }
 
 .des{
@@ -1332,6 +1332,56 @@ button{
 
 .btn-responsivo i{
   padding-right: 15px;
+}
+
+ /*botones flotantes de contacto*/
+
+.floating-icons {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  z-index: 1000; /* Asegura que los íconos estén encima de otros elementos */
+}
+
+.floating-icons a {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #25D366; /* Color de fondo para WhatsApp */
+  border-radius: 50%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+  color: white;
+  font-size: 28px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.floating-icons a.phone {
+  background-color: #34b7f1; /* Color de fondo para Teléfono */
+}
+
+.floating-icons a:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+  .floating-icons a {
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+  }
+
+  .floating-icons {
+    bottom: 10px;
+    right: 10px;
+    gap: 10px;
+  }
 }
 
 
